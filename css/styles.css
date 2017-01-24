@@ -1,0 +1,57 @@
+.padding-on {
+    padding-top: 5rem;
+}
+
+
+/* Slider */
+
+.slider {
+    width: 300%;
+    height: 100%;
+    text-align: center;
+
+}
+
+#slide1,
+#slide2,
+#slide3 {
+    width: 33.33333333333333%;
+    height: 100%;
+    float: left;
+}
+
+#slide1 {
+    background-color: #00AFE9;
+}
+
+#slide2 {
+    background-color: #f2f2f2;
+}
+
+#slide3 {
+    background-color: #A8CB7C;
+}
+
+@media only screen and (max-width: 900px) {
+    .slider {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .slider {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-height: 300px) {
+    .slider {
+        display: none;
+    }
+}

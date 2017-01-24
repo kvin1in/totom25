@@ -1,0 +1,56 @@
+--- 
+layout: default 
+title: Home Page 
+---
+<div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center" style="background:url({{ site.baseurl }}/img/111.jpg)">
+          <div class="logo-font android-slogan">Культурный Центр имени Георгия Буркова</div>
+       
+          
+
+          <a href="#screens">
+            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>
+        </div>
+           <div class="android-screen-section mdl-typography mdl-grid">
+          <a name="screens"></a>
+        <div class="mdl-cell mdl-cell--10-col-desktop mdl-cell--1-offset-desktop mdl-cell--12-col-tablet  mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+         <!-- Slider start -->
+         <div class="slider">
+            <div id="slide1">
+                <div class="mdl-typography--title-color-contrast">Самое прекрасное - стремление сделать что-то необыкновенное. </div></div>
+            <div id="slide2"><div class="mdl-typography--title-color-contrast">Жизнь – это широкая, ухабистая, бесконечная дорога. <br> И вот по этой дороге идут люди. <br> Одни чуть впереди, другие чуть поотстали.</div></div>
+            <div id="slide3"><div class="mdl-typography--title-color-contrast">Когда тебе бессовестно говорят неправду, в тебе все возмущается. Задето сердце. <br> Когда же тебе говорят правду, страдает самолюбие. <br> Оно точит тебя, и ты задыхаешься в бессильной злобе.</div></div>
+        </div>
+          </div>
+           </div><!-- end android section -->
+
+<div class="android-more-section">
+          <div class="android-section-title mdl-typography--display-1-color-contrast">Новости</div>
+          <div class="android-card-container mdl-grid">
+               {% for post in site.posts %}
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="{{ post.img }}">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text">{{ post.title }}</h4>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">{{post.subtitle}}</span>
+              </div>
+              <div class="mdl-card__actions">
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="{{ site.baseurl }}{{ post.url }}">
+                   Больше
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>		      
+	</div>		
+			
