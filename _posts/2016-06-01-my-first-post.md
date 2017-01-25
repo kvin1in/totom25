@@ -4,14 +4,7 @@ title: Памятник по мотивам фильма «Они сражали
 img: http://polit.ru/media/photolib/2016/11/30/2_800-600.jpg
 secimg: http://img.huunghivietnga.com.vn/image/img.ashx?path=/data/images/0/2016/12/01/phuonguyen/4389917.jpg
 ---
-<div class="mdl-grid">
-<div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-<img class="post-img" src="{{ page.img }}">
-</div>
-<div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-<img class="post-img" src="{{ page.secimg }}">
-</div>
-</div>
+
 
 Памятник по мотивам фильма «Они сражались за Родину» установили на Фрунзенской набережной перед фасадом здания Национального центра управления обороной страны. 
 

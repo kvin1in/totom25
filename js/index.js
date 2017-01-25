@@ -104,6 +104,6 @@ $(document).ready(function() {
     $('.slider').css('overflow', 'hidden');
     $('body').css('overflow', 'hidden');
 
-    var carousel = new slider($('.slider'), $('.points'), $('.arrow'), 4000);
+    var carousel = new slider($('.slider'), $('.points'), $('.arrow'), 6000);
     carousel.render();
 });
