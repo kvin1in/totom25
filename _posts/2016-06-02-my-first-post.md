@@ -2,7 +2,7 @@
 layout: post
 title: My Third Post!
 subtitle: Go ahead and edit it and re-build the site to see your changes.
-img: http://mtdata.ru/u24/photoF997/20736718152-0/original.jpg#20736718152
+img: https://vk.com/im?sel=84627915&z=photo84627915_456241360%2Fmail1702
 ---
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
 the site to see your changes. You can rebuild the site in many different ways, but
