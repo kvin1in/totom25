@@ -2,7 +2,7 @@
 layout: post
 title: Памятник по мотивам фильма «Они сражались за Родину» установили на Фрунзенской набережной
 img: http://polit.ru/media/photolib/2016/11/30/2_800-600.jpg
-secimg: https://riafan.ru/uploads/2016/11/30/orig-148051285109092f317f3cc5fa09b1d55e29d9b4d6-1480512852.jpeg
+secimg: http://img.huunghivietnga.com.vn/image/img.ashx?path=/data/images/0/2016/12/01/phuonguyen/4389917.jpg
 ---
 <div class="mdl-grid">
 <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
