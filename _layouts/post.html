@@ -1,7 +1,37 @@
 ---
-layout: default
+layout: page
 ---
-<div class="mdl-layout__content padding-on">
+
+
+           <div class="mdl-grid">
+                <div class="mdl-card mdl-cell--2-offset-desktop mdl-cell--8-col-desktop mdl-cell--10-offset-tablet  mdl-cell--10-col-tablet mdl-cell--12-col-phone mdl-shadow--4dp">
+                    <div class="mdl-card__media mdl-color-text--grey-50" id="starter-image" style="background-image: url({{ page.img }}); background-size: cover">
+                        
+                    </div>
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+                        <div class="minilogo"></div>
+                        <div>
+                              <h3>{{page.title}}</h3>
+                            <strong>The Newist</strong>
+                            <span>2 days ago</span>
+                        </div>
+
+                    </div>
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text">
+                        {{ content }}  
+                    </div>
+
+                </div>
+
+
+            </div>
+           
+
+
+
+
+
+<!--<div class="mdl-layout__content padding-on">
     <div class="mdl-grid">
         <div class="mdl-cell--2-offset-desktop mdl-cell--8-col-desktop mdl-cell--10-offset-tablet  mdl-cell--10-col-tablet mdl-cell--12-col-phone mdl-shadow--3dp padding-all">
             <div class="mdl-grid">
@@ -17,4 +47,4 @@ layout: default
             </div>
         </div>
     </div>
-</div>
+</div>-->

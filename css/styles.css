@@ -6,6 +6,10 @@
     padding: 1rem 1rem;
 }
 
+#starter-image {
+    min-height: 400px;
+}
+
 
 /* Slider */
 
@@ -25,13 +29,34 @@
 
 @media only screen and (max-width: 900px) {
     .slider {
-        font-size: 14px;
+        font-size: 25px;
+    }
+    #slide1 {
+        padding-top: 65px;
+    }
+    #slide2 {
+        padding-top: 45px;
+    }
+    #slide3 {
+        padding-top: 24px;
+    }
+    .android-slogan {
+        padding-top: 75px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .slider {
-        font-size: 10px;
+        font-size: 15px;
+    }
+    #slide1 {
+        padding-top: 65px;
+    }
+    #slide2 {
+        padding-top: 45px;
+    }
+    #slide3 {
+        padding-top: 24px;
     }
 }
 
@@ -44,6 +69,14 @@
 @media only screen and (max-height: 300px) {
     .slider {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #slide1,
+    #slide2,
+    #slide3 {
+        padding-top: 60px;
     }
 }
 
